@@ -34,7 +34,7 @@ Then, start MailHog by running `mailhog` in the command line.
 #### Debian / Ubuntu
 ```bash
 sudo apt-get -y install golang-go
-go get github.com/mailhog/MailHog
+go get github.com/Mathtin/MailHog
 ```
 
 Then, start MailHog by running `/path/to/MailHog` in the command line.
@@ -106,7 +106,7 @@ sendmail_path = /usr/sbin/sendmail -S mail:1025
 
 MailHog is a rewritten version of [MailHog](https://github.com/ian-kent/MailHog), which was born out of [M3MTA](https://github.com/ian-kent/M3MTA).
 
-Clone this repository to ```$GOPATH/src/github.com/mailhog/MailHog``` and type ```make deps```.
+Clone this repository to ```$GOPATH/src/github.com/Mathtin/MailHog``` and type ```make deps```.
 
 See the [Building MailHog](/docs/BUILD.md) guide.
 

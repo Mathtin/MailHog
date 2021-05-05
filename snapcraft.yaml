@@ -17,6 +17,6 @@ parts:
   mailhog:
     plugin: go
     go-packages:
-      - github.com/mailhog/MailHog
+      - github.com/Mathtin/MailHog
     build-packages:
       - git

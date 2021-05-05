@@ -60,4 +60,4 @@ If you have MailHog behind a firewall, you'll need ports `8025` and `8080` by de
 You can override this using `-api-bind-addr`, `-ui-bind-addr` and `-smtp-bind-addr` configuration options.
 
 If you're using MailHog behind a reverse proxy, e.g. nginx, make sure WebSocket connections
-are also supported and configured - see [this issue](https://github.com/mailhog/MailHog/issues/117) for information.
+are also supported and configured - see [this issue](https://github.com/Mathtin/MailHog/issues/117) for information.
