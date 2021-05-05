@@ -7,15 +7,15 @@ import (
 
 	gohttp "net/http"
 
-	"github.com/gorilla/pat"
-	"github.com/ian-kent/go-log/log"
 	"github.com/Mathtin/MailHog-Server/api"
 	cfgapi "github.com/Mathtin/MailHog-Server/config"
 	"github.com/Mathtin/MailHog-Server/smtp"
+	"github.com/gorilla/pat"
+	"github.com/ian-kent/go-log/log"
 	"github.com/mailhog/MailHog-UI/assets"
 	cfgui "github.com/mailhog/MailHog-UI/config"
 	"github.com/mailhog/MailHog-UI/web"
-	cfgcom "github.com/Mathtin/MailHog/config"
+	cfgcom "github.com/mailhog/MailHog/config"
 	"github.com/mailhog/http"
 	"github.com/mailhog/mhsendmail/cmd"
 	"golang.org/x/crypto/bcrypt"
